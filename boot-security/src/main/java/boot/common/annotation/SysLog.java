@@ -1,4 +1,4 @@
-package boot.annotation;
+package boot.common.annotation;
 
 import java.lang.annotation.*;
 

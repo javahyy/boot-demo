@@ -1,4 +1,6 @@
-package boot.exception;
+package boot.common.exception;
+
+import lombok.Getter;
 
 /**
  * @Description TODO

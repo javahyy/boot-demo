@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.dreamlu.system.mapper.SysLogMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="boot.system.model.SystemLog">
+        <id column="id" property="id"/>
+        <result column="username" property="username"/>
+        <result column="role_name" property="roleName"/>
+        <result column="operation" property="operation"/>
+        <result column="class_method" property="classMethod"/>
+        <result column="content" property="content"/>
+        <result column="client_ip" property="clientIp"/>
+        <result column="create_time" property="createTime"/>
+    </resultMap>
+
+</mapper>

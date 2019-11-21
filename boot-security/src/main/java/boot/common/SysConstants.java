@@ -5,7 +5,7 @@ package boot.common;
  * @Date 2019/11/20 13:10
  * @Author huangyangyang
  */
-public class SysConstants {
+public interface SysConstants {
 
     /**
      * 角色前缀
