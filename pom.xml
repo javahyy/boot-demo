@@ -6,6 +6,8 @@
     <modules>
         <module>boot-security</module>
         <module>boot-common</module>
+        <module>boot-grus-redis</module>
+        <module>boot-grus-gconf</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
