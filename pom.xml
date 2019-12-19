@@ -6,6 +6,7 @@
     <modules>
         <module>boot-security</module>
         <module>boot-common</module>
+        <module>boot-grus-redis</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -85,7 +86,52 @@
                 <artifactId>commons-codec</artifactId>
                 <version>1.13</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>2.6</version>
+            </dependency>
 
+            <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>28.1-jre</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp -->
+            <dependency>
+                <groupId>com.squareup.okhttp3</groupId>
+                <artifactId>okhttp</artifactId>
+                <version>4.2.2</version>
+            </dependency>
+
+
+            <!-- https://mvnrepository.com/artifact/io.opentracing/opentracing-api -->
+            <dependency>
+                <groupId>io.opentracing</groupId>
+                <artifactId>opentracing-api</artifactId>
+                <version>0.33.0</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/io.opentracing/opentracing-util -->
+            <dependency>
+                <groupId>io.opentracing</groupId>
+                <artifactId>opentracing-util</artifactId>
+                <version>0.33.0</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/io.jaegertracing/jaeger-core -->
+            <dependency>
+                <groupId>io.jaegertracing</groupId>
+                <artifactId>jaeger-core</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.62</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>
