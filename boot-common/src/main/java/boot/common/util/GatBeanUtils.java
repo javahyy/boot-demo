@@ -1,8 +1,3 @@
-/*
- * Copyright 2007-2020, CIIC Guanaitong, Co., Ltd.
- * All rights reserved.
- */
-
 package boot.common.util;
 
 import org.apache.commons.lang3.StringUtils;

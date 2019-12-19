@@ -4,7 +4,6 @@ import com.esotericsoftware.reflectasm.ConstructorAccess;
 import org.springframework.cglib.beans.BeanCopier;
 import org.springframework.util.CollectionUtils;
 
-import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.Collections;
